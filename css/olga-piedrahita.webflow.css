@@ -1,0 +1,141 @@
+.div-block {
+  padding-right: 16%;
+  padding-left: 16%;
+}
+
+.container {
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+.image {
+  margin-left: 20px;
+}
+
+.image-2 {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.instagram {
+  position: absolute;
+  width: 12em;
+  height: 1.5em;
+  margin-top: 81px;
+  margin-left: 156px;
+  border-radius: 12px;
+  background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.50);
+  opacity: 0;
+}
+
+.mail {
+  position: absolute;
+  width: 20em;
+  height: 1.5em;
+  margin-top: 54px;
+  margin-left: 104px;
+  border-radius: 12px;
+  background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.50);
+  opacity: 0;
+}
+
+.telefono {
+  position: absolute;
+  width: 10em;
+  height: 1.5em;
+  margin-top: 0px;
+  margin-left: 152px;
+  border-radius: 12px;
+  background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.50);
+  opacity: 0;
+}
+
+.direccion {
+  position: absolute;
+  width: 11em;
+  height: 1.5em;
+  margin-top: 26px;
+  margin-left: 160px;
+  border-radius: 12px;
+  background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.50);
+  opacity: 0;
+}
+
+@media (max-width: 991px) {
+  .div-block {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .image {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .instagram {
+    margin-top: 97px;
+    margin-left: 152px;
+  }
+  .mail {
+    margin-top: 69px;
+    margin-left: 94px;
+  }
+  .telefono {
+    margin-top: 15px;
+    margin-left: 143px;
+  }
+  .direccion {
+    margin-top: 42px;
+    margin-left: 151px;
+  }
+}
+
+@media (max-width: 479px) {
+  .instagram {
+    width: 9em;
+    height: 1.2em;
+    margin-top: 80px;
+    margin-left: 124px;
+    padding-top: 0px;
+    border-radius: 12px;
+    background-color: hsla(208.00000000000003, 0.00%, 100.00%, 0.00);
+    opacity: 0;
+    line-height: 15px;
+    cursor: pointer;
+  }
+  .mail {
+    width: 16em;
+    height: 1.2em;
+    margin-top: 58px;
+    margin-left: 78px;
+    padding-top: 0px;
+    border-radius: 12px;
+    background-color: hsla(208.00000000000003, 0.00%, 100.00%, 1.00);
+    opacity: 0;
+    line-height: 15px;
+    cursor: pointer;
+  }
+  .telefono {
+    width: 8em;
+    height: 1.2em;
+    margin-top: 16px;
+    margin-left: 115px;
+    padding-top: 0px;
+    border-radius: 12px;
+    background-color: hsla(208.00000000000003, 0.00%, 100.00%, 0.00);
+    opacity: 0;
+    line-height: 15px;
+    cursor: pointer;
+  }
+  .direccion {
+    width: 9em;
+    height: 1.2em;
+    margin-top: 37px;
+    margin-left: 122px;
+    padding-top: 0px;
+    border-radius: 12px;
+    background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.00);
+    opacity: 0;
+    line-height: 15px;
+    cursor: pointer;
+  }
+}
+
