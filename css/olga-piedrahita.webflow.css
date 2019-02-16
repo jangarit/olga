@@ -8,57 +8,41 @@
   background-color: #fff;
 }
 
-.image {
-  margin-left: 20px;
+.image-3 {
+  margin-top: 20px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
-.image-2 {
-  padding-right: 80px;
-  padding-left: 80px;
+.image-4 {
+  margin-top: 20px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
-.instagram {
-  position: absolute;
-  width: 12em;
-  height: 1.5em;
-  margin-top: 81px;
-  margin-left: 156px;
-  border-radius: 12px;
-  background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.50);
-  opacity: 0;
+.image-5 {
+  margin-top: 20px;
+  margin-bottom: -7px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
-.mail {
-  position: absolute;
-  width: 20em;
-  height: 1.5em;
-  margin-top: 54px;
-  margin-left: 104px;
-  border-radius: 12px;
-  background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.50);
-  opacity: 0;
+.image-6 {
+  margin-top: 20px;
+  margin-bottom: -7px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
-.telefono {
-  position: absolute;
-  width: 10em;
-  height: 1.5em;
-  margin-top: 0px;
-  margin-left: 152px;
-  border-radius: 12px;
-  background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.50);
-  opacity: 0;
+.datos {
+  margin-right: 10em;
+  margin-left: 10em;
+  text-align: center;
 }
 
-.direccion {
-  position: absolute;
-  width: 11em;
-  height: 1.5em;
-  margin-top: 26px;
-  margin-left: 160px;
-  border-radius: 12px;
-  background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.50);
-  opacity: 0;
+.link-block {
+  float: none;
+  opacity: 1;
 }
 
 @media (max-width: 991px) {
@@ -66,76 +50,75 @@
     padding-right: 0%;
     padding-left: 0%;
   }
-  .image {
-    margin-top: 15px;
-    margin-left: 10px;
+  .image-3 {
+    max-height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
-  .instagram {
-    margin-top: 97px;
-    margin-left: 152px;
+  .image-4 {
+    max-height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
-  .mail {
-    margin-top: 69px;
-    margin-left: 94px;
+  .image-5 {
+    max-height: 50px;
+    margin-bottom: -3px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
-  .telefono {
-    margin-top: 15px;
-    margin-left: 143px;
+  .image-6 {
+    max-height: 50px;
+    margin-bottom: -3px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
-  .direccion {
-    margin-top: 42px;
-    margin-left: 151px;
+  .datos {
+    margin-right: 0em;
+    margin-left: 0em;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-3 {
+    max-height: 40px;
+    margin-top: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .image-4 {
+    max-height: 40px;
+    margin-top: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .image-5 {
+    max-height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .image-6 {
+    max-height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
 @media (max-width: 479px) {
-  .instagram {
-    width: 9em;
-    height: 1.2em;
-    margin-top: 80px;
-    margin-left: 124px;
-    padding-top: 0px;
-    border-radius: 12px;
-    background-color: hsla(208.00000000000003, 0.00%, 100.00%, 0.00);
-    opacity: 0;
-    line-height: 15px;
-    cursor: pointer;
+  .image-3 {
+    max-height: 30px;
+    margin-top: 12px;
   }
-  .mail {
-    width: 16em;
-    height: 1.2em;
-    margin-top: 58px;
-    margin-left: 78px;
-    padding-top: 0px;
-    border-radius: 12px;
-    background-color: hsla(208.00000000000003, 0.00%, 100.00%, 1.00);
-    opacity: 0;
-    line-height: 15px;
-    cursor: pointer;
+  .image-4 {
+    max-height: 30px;
+    margin-top: 12px;
   }
-  .telefono {
-    width: 8em;
-    height: 1.2em;
-    margin-top: 16px;
-    margin-left: 115px;
-    padding-top: 0px;
-    border-radius: 12px;
-    background-color: hsla(208.00000000000003, 0.00%, 100.00%, 0.00);
-    opacity: 0;
-    line-height: 15px;
-    cursor: pointer;
+  .image-5 {
+    max-height: 30px;
+    margin-top: 12px;
   }
-  .direccion {
-    width: 9em;
-    height: 1.2em;
-    margin-top: 37px;
-    margin-left: 122px;
-    padding-top: 0px;
-    border-radius: 12px;
-    background-color: hsla(208.00000000000003, 86.96%, 74.44%, 0.00);
-    opacity: 0;
-    line-height: 15px;
-    cursor: pointer;
+  .image-6 {
+    max-height: 30px;
+    margin-top: 12px;
   }
 }
 
