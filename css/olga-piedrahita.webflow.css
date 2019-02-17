@@ -105,20 +105,28 @@
 
 @media (max-width: 479px) {
   .image-3 {
-    max-height: 30px;
+    max-height: 24px;
     margin-top: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .image-4 {
-    max-height: 30px;
+    max-height: 24px;
     margin-top: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .image-5 {
-    max-height: 30px;
+    max-height: 24px;
     margin-top: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .image-6 {
-    max-height: 30px;
+    max-height: 24px;
     margin-top: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
 
