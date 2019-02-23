@@ -30,7 +30,7 @@ var i="INVALID_ARGS";function o(t){throw new Error(t)}function a(t){var e=Object
  * _.has
  * _.now
  *
- * http://underscorejs.org
+ * https://underscorejs.org
  * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
  * Underscore may be freely distributed under the MIT license.
  * @license MIT
